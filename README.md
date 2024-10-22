@@ -12,8 +12,8 @@ provider "aws" {
   region = "us-east-1"
 }
 
-module "docker_instance" {
-    source = "<artillery/docker-instance/aws"
+module "docker-instance" {
+    source = "ArtilleryTrigger/docker-instance/aws"
     key_name = "clarusway"
 }
 ```
